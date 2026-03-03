@@ -1,0 +1,17 @@
+{
+  "name": "my-node-devops-app",
+  "version": "1.0.0",
+  "description": "Repo-ready Node.js app for CI/CD practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
